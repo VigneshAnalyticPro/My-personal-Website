@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Section</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<style>
+  .about-section { 
+    background:url("https://images4.alphacoders.com/206/206954.jpg");
+    text-align: center;
+    padding: 10px 0; background-repeat: no-repeat;background-size:cover;
+    
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about-section img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    color: #333;
+  }
+
+  /* Additional CSS for Projects Section */
+.projects-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+}
+.card-img-top {
+  max-height: 180px; /* Adjust this value to fit the image properly in the card */
+  object-fit: cover; /* This makes sure the image covers the area properly */
+}
+.card-body {
+  padding: 15px;
+}
+.card-title {
+  font-size: 1.25rem;
+}
+.card-text {
+  margin-bottom: 15px;
+}
+
+/* Additional CSS for Skills Section */
+.skills-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.skills-section .card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.skills-section .card-img-top {
+  padding: 20px; /* Add padding around your images if needed */
+  background-color: #f8f9fa; /* Adjust the background color if your images have transparent areas */
+  height: 180px; /* Fixed height for consistency */
+  object-fit: contain; /* This will make sure the image is scaled properly within the container */
+}
+.skills-section .card-body {
+  padding: 15px;
+}
+.skills-section .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.skills-section .btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+.skills-section .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Additional CSS for Conference Section */
+.Conference-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.Conference-section .card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.Conference-section .card-img-top {
+  padding: 20px; /* Add padding around your images if needed */
+  background-color: #f8f9fa; /* Adjust the background color if your images have transparent areas */
+  height: 180px; /* Fixed height for consistency */
+  object-fit: contain; /* This will make sure the image is scaled properly within the container */
+}
+.Conference-section .card-body {
+  padding: 15px;
+}
+.Conference-section .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.conference-section .btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+.conference-section .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+/* Additional CSS for Contact Section */
+.contact-section {
+  padding: 50px 0;
+}
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.social-icon {
+  width: 50px; /* Size of your icons */
+  margin-bottom: 10px;
+}
+/* Hover effect for icons */
+.social-icon:hover {
+  opacity: 0.7;
+}
+/* Style for links in the Contact section */
+.contact-section a {
+  color: #fff;
+  text-decoration: none; /* Removes underline from links */
+  display: inline-block; /* Allows for margin on the bottom */
+  margin-bottom: 10px;
+}
+.contact-section a:hover {
+  color: #ddd; /* Color when hovering over the link */
+}
+
+/* CSS for Sticky Navbar */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+}
+
+/* Ensure padding is added to body to avoid content being hidden behind the navbar */
+body { 
+  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style for navigation bar links */
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Slightly lighter white when hovering over links */
+}
+
+/* Media query for responsive navbar collapsing */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #343a40; /* Same as navbar color for seamless look */
+  }
+}
+</style>
+
+</head>
+<body>
+<section id="about" class="about-section">
+  <div class="container">
+    <h2>I'm VIGNESH S</h2>
+    <img src="images/about/1.jpg" alt="About Me">
+    <p class="text-white" style="font-family: 'Times New Roman', serif; font-weight: bold;"></p>
+    <p class="text-white" style="font-family: 'Times New Roman'; font-style: italic;">
+      Hi, I'm Vignesh, a recent M.A. Economics graduate from Madurai Kamaraj University. I have a solid foundation in economics, statistical analysis, and research, which makes me well-suited for a Data Analyst role.
+
+      I recently completed a Postgraduate Program in Data Science at Imarticus Learning in Coimbatore, where I gained hands-on experience in Python, MySQL, statistical analysis, and machine learning. These skills enable me to analyze data, build predictive models, and create meaningful visualizations.
+
+      With my analytical mindset and research background, I am passionate about solving complex problems and delivering data-driven solutions. I'm eager to contribute to impactful projects and collaborate with dynamic teams.
+    </p>
+  </div>
+</section>
+<!-- Projects Section -->
+<section id="projects" class="projects-section bg-light" id="projects">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4 d-flex">
+        <div class="card">
+          <img src="images/projects/5.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Postgraduate Project in MKU</h5>
+            <p class="card-text">TOPIC: "AI REVOLUTION IN ACADEMIA: AN EXPLORATION INTO SELECT POPULAR RESEARCH TOOLS"AI enhances research by automating tasks, improving efficiency and quality, but human intervention is essential. A balanced approach ensures accuracy, ethics, and reliability in research.</p>
+            <a a>
+            <a a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4 d-flex">
+        <div class="card">
+          <img src="images/projects/1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">zomato_customer_data</h5>
+            <p class="card-text"> This project explores customer preferences and restaurant trends through Exploratory Data Analysis (EDA). Objectives include identifying popular restaurant types, analyzing ratings, and uncovering spending patterns. Insights into offline and online orders were derived to optimize Zomato's promotional strategies.</p>
+            <a a>
+            <a href="https://github.com/VigneshAnalyticPro/zomato_customer_data" class="btn btn-secondary"style="background-color: #4caf50; border-color: #4caf50;">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4 d-flex">
+        <div class="card">
+          <img src="images/projects/2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Indian Personal Finance and Spending Habits</h5>
+            <p class="card-text">This project aims to analyze personal finance and spending habits in India by creating an interactive and insightful Power BI dashboard. By leveraging detailed financial and demographic data for 20,000 individuals</p>
+            <a a>
+            <a href="https://github.com/VigneshAnalyticPro/-DATA-ANALYSIS-DASHBORD" class="btn btn-secondary"style="background-color: #4caf50; border-color: #4caf50;">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4 -->
+<div class="col-md-4 mb-4 d-flex">
+  <div class="card">
+    <img src="images/projects/3.jpg" class="card-img-top" alt="Project 2">
+    <div class="card-body">
+      <h5 class="card-title">Credit Card Approval Prediction</h5>
+      <p class="card-text">The objective is to train a machine learning model using the provided dataset to predict the approval outcome for new credit card applications accurately</p>
+      <a a>
+      <a href="https://github.com/VigneshAnalyticPro/Credit-Card-Approval-Prediction-" class="btn btn-secondary" style="background-color: #4caf50; border-color: #4caf50;">Source Code</a>
+    </div>
+  </div>
+</div>
+<!-- Skills Section -->
+<section id="skills" class="skills-section bg-white" id="skills">
+  <div class="container">
+    <h2 class="text-center">Skills</h2>
+    <div class="row">
+      <!-- Skill 1 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/1.png" class="card-img-top" alt="Python">
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text">I am an intermediate-level Python user specializing in data science, utilizing NumPy and Pandas for efficient data manipulation and analysis.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/2.png" class="card-img-top" alt="Data Visualization">
+          <div class="card-body">
+            <h5 class="card-title">Data Visualization</h5>
+            <p class="card-text">Blending Python proficiency with NumPy, Pandas, and data visualization, I transform complex data into clear, actionable insights.</p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Skill 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/6.png" class="card-img-top" alt="SQL">
+          <div class="card-body">
+            <h5 class="card-title">Statistics</h5>
+            <p class="card-text">With a strong foundation in statistics, I analyze data trends, uncover patterns, and drive informed decision-making in data science.</p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Skill 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/skills/3.png" class="card-img-top" alt="SQL">
+          <div class="card-body">
+            <h5 class="card-title">SQL</h5>
+            <p class="card-text">With MySQL expertise, I query and manage datasets, transforming raw data into actionable insights to support analysis and decision-making.</p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Skill 5 -->
+      <div class="col-lg-3 col-md-6 d-flex">
+        <div class="card">
+          <img src="images/skills/5.png" class="card-img-top" alt="Data Storytelling">
+          <div class="card-body">
+            <h5 class="card-title">Machine Learning</h5>
+            <p class="card-text">Solid foundation in machine learning, I develop predictive models and algorithms to extract meaningful patterns and drive data-driven solutions.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 6 -->
+      <div class="col-lg-3 col-md-6 d-flex">
+        <div class="card">
+          <img src="images/skills/7.png" class="card-img-top" alt="Data Storytelling">
+          <div class="card-body">
+            <h5 class="card-title">Web scraping</h5>
+            <p class="card-text">Web scraping is a powerful technique for extracting data from websites.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- conference Section -->
+<section id="conference" class="conference bg-white">
+  <div class="container">
+    <h2 class="text-center">Conference</h2>
+    <div class="row">
+      <!-- Conference 1 -->
+      <div class="col-lg-3 col-md-6 d-flex">
+        <div class="card">
+          <img src="images/Conference/1.jpg" class="img-fluid" alt="conference">
+          <div class="card-body">
+            <h5 class="card-title fs-6">CONTEMPORARY ISSUES IN INDIAN ECONOMY</h5>
+            <p class="card-text">One-day National Seminar by the Dept. of Economics, Aditanar College, Tiruchendur, in association with Palm Tree Engineering,on 13th March 2023.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Conference 2 -->
+      <div class="col-lg-3 col-md-6 d-flex">
+        <div class="card">
+          <img src="images/Conference/2.jpg" class="img-fluid" alt="conference">
+          <div class="card-body">
+            <h5 class="card-title">WORLD BANK SIMULATION</h5>
+            <p class="card-text">World Bank supports developing countries with funding, advice, and assistance to reduce poverty and promote growth.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Conference 3 -->
+      <div class="col-lg-3 col-md-6 d-flex">
+        <div class="card">
+          <img src="images/Conference/3.jpg" class="img-fluid" alt="conference">
+          <div class="card-body">
+            <h5 class="card-title">Youth Action in Heat Waves: Reducing Vulnerabilities, Enhancing Capacities and Building Resilience.</h5>
+            <p class="card-text">Attended a 5-day Training of Trainers on "Youth Action in Heat Waves" (April 24-28, 2023) by NIDM & Madurai Kamaraj University.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Conference 4 -->
+      <div class="col-lg-3 col-md-6 d-flex">
+        <div class="card">
+          <img src="images/Conference/4.jpg" class="img-fluid" alt="conference">
+          <div class="card-body">
+            <h5 class="card-title">MILLETS - SUPER FOOD OF THE CENTURY: OPPORTUNITIES AND CHALLENGES</h5>
+            <p class="card-text">Presented "Millet Cultivation – Prospects and Challenges" at my college under the theme "Millets – Superfood of the Century.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat for additional conference -->
+    </div>
+  </div>
+</section>
+<!-- Contact Me Section -->
+<section id="contact" class="contact-section text-center text-white bg-dark" style="width: 100%;">
+  <div class="container">
+    <h2>Contact Me</h2>
+
+    <!-- Email and Phone -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-lg-6">
+        <p><i class="fas fa-envelope"></i> GMAIL - vigneshmku4@gmail.com</p>
+      </div>
+      <div class="col-lg-6">
+        <p><i class="fas fa-phone"></i> PHONE NO: 6382439188</p>
+      </div>
+    </div>
+
+    <!-- Social Media Links Centered -->
+    <div class="d-flex justify-content-center mt-4 social-links">
+      <a href="https://www.linkedin.com/in/vignesh-s-1b62482b7/" target="_blank">
+        <img src="icons/linkedin.png" alt="LinkedIn" class="social-icon">
+        LinkedIn
+      </a>
+      <a href="https://x.com/vigneshmku4?t=PRi6xAb9E4SwhZlcj_FAwg&s=09" target="_blank">
+        <img src="icons/twitter.png" alt="Twitter" class="social-icon">
+        Twitter
+      </a>
+      <a href="https://github.com/VigneshAnalyticPro" target="_blank">
+        <img src="icons/github.png" alt="GitHub" class="social-icon">
+        GitHub
+      </a>
+      <a href="https://medium.com/@vigneshmku4" target="_blank">
+        <img src="icons/medium.png" alt="Medium" class="social-icon">
+        Medium
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Custom CSS -->
+<style>
+  /* Social Media Icons */
+  .social-icon {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  /* Contact Section */
+  .contact-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Hover Effect */
+  .contact-section a:hover {
+    color: #ddd;
+  }
+
+  /* Ensure 2 cm Gap */
+  .social-links {
+    gap: 2cm;
+  }
+
+  /* Add spacing between text and icons */
+  .social-links {
+    margin-top: 2cm;
+  }
+</style>
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Conference">Conference</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
